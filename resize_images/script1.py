@@ -8,9 +8,9 @@ import cv2
 #canal alpha es el canal de transparencia
 
 ## el tipo de dato es un numpy array
-img = cv2.imread('galaxy.jpg',0)
-img2 = cv2.imread('galaxy.jpg',1)
-img3 = cv2.imread('galaxy.jpg',-1)
+img = cv2.imread('galaxy.jpg', 0)
+img2 = cv2.imread('galaxy.jpg', 1)
+img3 = cv2.imread('galaxy.jpg', -1)
 
 print(f'shape: {img.shape}') #tamaño de la imagen
 print(f'type: { type(img)}')

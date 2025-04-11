@@ -10,10 +10,3 @@ for image in images:
     cv.waitKey(1000)
     cv.destroyAllWindows() #cierra todas las ventanas
     cv.imwrite("resized_"+image, resized) #guarda la imagen redimensionada con el prefijo "resized_"
-
-git init
-git add .
-git commit -m "Add project"
-git branch -M main
-git remote add origin https://github.com/sebasmzg/py-resize-img.git
-git push -u origin main
